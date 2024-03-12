@@ -3,8 +3,17 @@ I was looking for a tool that could easily scale the image based on YouTube's th
   
 Feel free to use this tool how you like, it's open source because something like this should not be charged for IMO.
 
+# How To Use
+1. Download the files from the resources tab.
+2. Open the HTML file with your browser.
+    1. Can work online or offline as long as you have a browser.
+3. Replace the myThumbnail.jpg with your custom thumbnail.
+    1. Make sure that the name and extension (.jpg) are the same.
+4. Refresure the page in your browser
+    1. This will update the myThumbnail.jpg image in the HTML document.
+
 # Downloads
-You can easily obtain the files needed from the [releases tab]().
+You can easily obtain the files needed from the [releases tab](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/releases).
 
 # Screenshots
 ![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/8797bf9c-90ff-46bd-a937-4c2bfd27b42b)
