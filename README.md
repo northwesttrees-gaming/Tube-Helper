@@ -12,6 +12,22 @@ Feel free to use this tool how you like, it's open source because something like
 4. Refresure the page in your browser
     1. This will update the myThumbnail.jpg image in the HTML document.
 
+# Notes
+### NOTE 1:
+You can use Notepad++ to replace these video IDs in this document to change the thumbnail design of the alternate video thumbnails.  
+  
+Thumbnail A "gzKb-JxjyWQ"  
+Thumbnail B "zv-TS_mEHE4"  
+Thumbnial C "RNCwBSPTZiM"  
+Thumbnial D "V2IhvWpcjVg"  
+Thumbnail E "j8y-_ts_H8s"  
+
+### NOTE 2:
+Your thumbnail name should be "myThumbnail.jpg"
+
+### NOTE 3:
+Your thumbnail should be in the same folder as this HTML document.
+
 # Downloads
 You can easily obtain the files needed from the [releases tab](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/releases).
 
