@@ -1,4 +1,5 @@
-![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/6a2b7142-2f60-4578-a6e7-bc5d1f033cc9)
+![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/3bc5af93-1251-484c-a672-f6d66e7dea25)
+
 
                     
                     GNU GENERAL PUBLIC LICENSE
