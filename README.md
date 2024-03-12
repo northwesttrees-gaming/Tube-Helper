@@ -1,0 +1,1 @@
+# YouTube-Thumbnail-Helper
