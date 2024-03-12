@@ -1,3 +1,6 @@
+![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/6a2b7142-2f60-4578-a6e7-bc5d1f033cc9)
+
+                    
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
