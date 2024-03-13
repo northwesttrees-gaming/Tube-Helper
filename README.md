@@ -3,6 +3,9 @@ I was looking for a tool that could easily scale the image based on YouTube's th
   
 Feel free to use this tool how you like, it's open source because something like this should not be charged for IMO.
 
+# Disclaimer
+### THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE.
+
 # How To Use
 1. Download the files from the resources tab.
 2. Open the HTML file with your browser.
