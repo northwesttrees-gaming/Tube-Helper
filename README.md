@@ -1,3 +1,5 @@
+![image](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/3290ba3e-033c-45d1-8bed-12ad5f2af8b5)
+
 # Tube Helper
 I was looking for a tool that could easily scale the image based on YouTube's thumbnail sizes across their site. I quickly found out that sites were charging for this very simple thing that someone with very little know-how with HTML or simply Google could do for free. So I made this quick and easy HTML page that can scale the "myThumbnail.jpg" file across all thumbnail sizes. There is also alternate thumbnails which can be replaced using Notepad++ replace tool using the video IDs.  
   
