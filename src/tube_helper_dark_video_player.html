@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tube Helper</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/end-screen-video.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/dark_theme.css">
+  </head>
+  <body>
+    <!-- TITLE -->
+    <table>
+      <tr>
+        <td>
+          <img class="logo" src="images/logo.png">
+        <td>
+        <td>
+          <h1 class="title">
+            TUBE HELPER
+          </h1>
+          <p class="subtitle">
+            THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE OR ALPHABET.
+          </p>
+        <td>
+      <tr>
+    </table>
+    
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <ul class="nav-ul-fix">
+        <div class="nav-left">
+          <li>
+            <a href="../tube_helper.html">Launcher</a>
+          </li>
+          <li class="nav-active">
+            <a href="tube_helper_dark_video_player.html">
+              Video Player
+            </a>
+          </li>
+          <li>
+            <a href="tube_helper_dark_channels.html">
+              Channels
+            </a>
+          </li>
+          <li>
+            <a href="tube_helper_dark_youtube_site.html">
+              YouTube Site
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">
+      VIDEO PLAYER
+    </h1>
+    
+    <!-- TITLE HELPER -->
+    <form>
+      <div class="title-helper">
+      
+        <!-- TITLE -->
+        <h2 class="title-helper-h2">
+          TITLE HELPER
+        </h2>
+        
+        <!-- DESCRIPTION -->
+        <p class="title-helper-p">
+          The title helper can help you plan how your titles will look across YouTube!
+        </p>
+        
+        <!-- MESSAGE BOX -->
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>On Windows you can use the ( Windows Key + Period Key ) to select a custom emojis.</p>
+            <p>On MacOS you can press ( Fn + E ) or the ( Globe Key + E ), or choose ( Edit > Emoji & Symbols ) to select custom emojis.</p>
+          </div>
+        </div>
+        
+        <!-- USER INPUT -->
+        <p class="title-helper-p">
+          Type your title of your video here:
+        </p>
+        <div class="editor-top">
+          <input type="text" id="titleField" placeholder="Enter custom title here!">
+        </div>
+        
+        <p class="title-helper-p">
+          Set the duration of the video here time format is (HH:MM:SS).
+        </p>
+        <div class="editor-top">
+          <input type="text" id="videoTimeField" placeholder="Enter custom time here!">
+        </div>
+        
+        <!-- BUTTON -->
+        <div>
+          <button onclick="updateParagraph()">
+            Update Title
+          </button>
+        </div>
+      </div>
+    </form>
+   
+    <!-- VIDEO PLAYER CATEGORY -->
+    <div class="category">
+      <h1>VIDEO PLAYER PAGE</h1>
+      
+      <!-- SIDEBAR -->
+      <div class="group">
+        <h2>SIDEBAR</h2>
+        <ul>
+          <li class="li-h3">SIZE: 168x94 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: STATIC</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              When people view a video across YouTube there is a chance your video will be recommended to them on the side of the video player.
+            </p>
+            <br/>
+            <p>
+              <b>TIP:</b> People are more likely to click on videos from the sidebar after watching a video so make sure you design them based on this thumbnial and the end screen size.
+            </p>
+          </div>
+        </div>
+        <div class="sidebar-group">
+
+          <!-- SIDEBAR - ITEM 1 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img id="a0" src="images/thumbnails/placeholder_a.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>25:06</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p>I Built and INDUSTRIAL CITY in Minecraft Create</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>MineScoped LP</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>1.5K views • 2 hours ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- SIDEBAR - ITEM 2 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img id="b0" src="images/thumbnails/placeholder_b.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>10:15</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p>1000 Players Build MASSIVE Civilization in Minecraft</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>Dirt and Diamonds</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>1.8M views • 1 month ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIDEBAR - ITEM 3 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img src="../myThumbnail.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p id="myvideotime0">18:34</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p id="mytitle0">I Built and INDUSTRIAL CITY in Minecraft Create</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>NorthWestTrees Gaming</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>12K views • 2 days ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIDEBAR - ITEM 4 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img id="c0" src="images/thumbnails/placeholder_c.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>28:19</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p>50 Building Tips YOU NEED To Know</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>The Cauldron Crafter</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>750K views • 2 years ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIDEBAR - ITEM 5 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img id="d0" src="images/thumbnails/placeholder_d.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>1:18:53</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p>TimberWoods Minecraft Lets Play FULL SEASON</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>Game of Netherite</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>253 views • 20 minutes ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIDEBAR - ITEM 6 -->
+          <div class="sidebar-item">
+            <div>
+              <div class="sidebar-thumbnail">
+                <a>
+                  <div class="sidebar-thumbnail-image">
+                    <img id="e0" src="images/thumbnails/placeholder_e.jpg">
+                  </div>
+                  <div class="sidebar-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>5:42</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-details">
+                <div>
+                  <a>
+                    <h3 class="sidebar-details-title">
+                      <p>I Gave 1000 Diamonds To An ENTIRE SERVER</p>
+                    </h3>
+                    <div class="sidebar-details-meta">
+                      <div>
+                        <div>
+                          <div class="sidebar-details-channel">
+                            <div>
+                              <div>
+                                <div>
+                                  <p>Wolfbane Bites</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sidebar-details-stats">
+                            <p>2.7M views • 5 years ago</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- END SCREEN VIDEO ELEMENT -->
+      <div class="group">
+        <h2>END SCREEN VIDEO ELEMENT</h2>
+        <ul>
+          <li class="li-h3">SIZE: 406x229 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: DYNAMIC</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>If you use end screens in the last 20 seconds of the video then this is what the thumbnial will look like for people.</p>
+          </div>
+        </div>
+        <div class="end-screen-video-group">
+          <div>
+            <img src="../myThumbnail.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="javascript/video_player.js"></script>
+  </body>
+</html>

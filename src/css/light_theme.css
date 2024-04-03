@@ -1,0 +1,116 @@
+/* CORE - GLOBAL PROPERTIES */
+* {
+  color: rgb(0, 0, 0);
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* CORE - TEXT PROPERTIES */
+.title {
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.subtitle {
+  color: rgb(75, 75, 75);
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+h1 {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+h2 {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.li-h3 {
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+/* CORE - NAVIGATION PROPERTIES */
+.nav ul {
+  background-color: rgb(50, 50, 50);
+}
+.nav-left li a, .nav-right li a {
+  color: rgb(255, 255, 255);
+}
+.nav ul {
+  box-shadow: 5px 5px rgb(200, 200, 200);
+  background-color: rgb(175, 175, 175);
+}
+.nav-left li a {
+  color: rgb(100, 100, 100);
+  border-right: 2px solid rgb(128, 128, 128);
+}
+.nav-left li a:hover {
+  color: rgb(255, 255, 255);
+  border-right: 2px solid rgb(128, 128, 128);
+}
+.nav-right li a {
+  color: rgb(100, 100, 100);
+  border-left: 2px solid rgb(128, 128, 128);
+}
+.nav-right li a:hover {
+  color: rgb(255, 255, 255);
+}
+.nav-left .nav-active a {
+  color: rgb(255, 255, 255);
+}
+.title-helper-p {
+   color: rgb(100, 100, 100);
+}
+
+
+
+
+
+/* CORE - MESSAGE BOX PROPERTIES */
+.message-box {
+  box-shadow: 5px 5px rgb(200, 200, 200);
+}
+
+
+
+
+
+/* VIDEO PLAYER - SIDEBAR - ELEMENT ITEM PROPERTIES */
+.sidebar-item {
+  border: 2px solid rgb(175, 175, 175);
+  box-shadow: 5px 5px rgb(200, 200, 200);
+  background-color: rgb(210, 210, 210);
+}
+
+/* VIDEO PLAYER - SIDEBAR - THUMBNAIL OVERLAY PROPERTIES */
+.sidebar-thumbnail-overlay div div {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.sidebar-thumbnail-overlay div div p {
+  color: rgb(255, 255, 255);
+}
+
+/* VIDEO PLAYER - SIDEBAR - DETAILS - TITLE PROPERTIES */
+.sidebar-details-title {
+  color: rgb(75, 75, 75);
+}
+.sidebar-details-title p {
+  color: rgb(0, 0, 0);
+}
+
+/* VIDEO PLAYER - SIDEBAR - DETAILS - CHANNEL NAME PROPERTIES */
+.sidebar-details-channel div div div p {
+  color: rgb(125, 125, 125);
+}
+
+/* VIDEO PLAYER - SIDEBAR - DETAILS - METADATA PROPERTIES */
+.sidebar-details-stats p {
+  color: rgb(125, 125, 125);
+}
+
+.end-screen-video-group div img {
+  box-shadow: 5px 5px rgb(200, 200, 200);
+}

@@ -1,0 +1,12 @@
+@media only screen and (min-width: 0px) {
+  .class-a {width: 100px;}
+  .class-b {width: 100px;}
+}
+@media only screen and (min-width: 100px) {
+  .class-a {width: 150px;}
+  .class-b {width: 150px;}
+}
+@media only screen and (min-width: 200px) {
+  .class-a {width: 200px;}
+  .class-b {width: 200px;}
+}

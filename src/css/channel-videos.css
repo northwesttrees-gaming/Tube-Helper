@@ -1,0 +1,169 @@
+/* ELEMENT GROUP */
+.channel-videos-group {
+  margin: 0px;
+  display: block;
+  padding: 0px 10px 10px 0px;
+  border-radius: 8px;
+}
+/* ELEMENT ITEMS */
+.channel-videos-item {
+  width: 235px;
+  height: 225px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin: 10px 10px 0px 0px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.channel-videos-item div {
+  width: 210px;
+  height: 128px;  /* This needed to be subtracted by 44 to fix the dive from having lots of space between the metadata and thumbnail. */
+  display: block;
+}
+/* THUMBNAIL MAIN GROUP */
+.channel-videos-thumbnail {
+  width: 210px;
+  height: 118px;
+  display: block;
+  position: relative;
+  flex-basis: auto;
+}
+.channel-videos-thumbnail a {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 210px;
+  height: 118px;
+  bottom: 0px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 8px;
+}
+/* THUMBNAIL IMAGE */
+.channel-videos-thumbnail-image {
+  width: auto;
+  height: auto;
+  display: inline;
+}
+.channel-videos-thumbnail-image img {
+  width: 210px;
+  height: 118px;
+  margin: 0px;
+  padding: 0px;
+  overflow: clip;
+  display: inline-block;
+  overflow-clip-margin: content-box;
+}
+/* THUMBNIAL TIME OVERLAY */
+.channel-videos-thumbnail-overlay {
+  width: 210px;
+  height: 0px;
+  display: block;
+}
+.channel-videos-thumbnail-overlay div {
+  right: 0px;  
+  width: auto;
+  height: auto;
+  bottom: 0px;
+  margin: 4px;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+.channel-videos-thumbnail-overlay div div {
+  right: 0px;  
+  width: auto;
+  height: auto;
+  bottom: 0px;
+  margin: 0px;
+  display: flex;
+  padding: 3px 4px 3px 4px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: row;
+}
+.channel-videos-thumbnail-overlay div div p {
+  margin: 0px;
+  display: block;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 500;
+}
+/* DETAILS MAIN GROUP */
+
+.channel-videos-details {
+  width: 210px;
+  height: 54px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.channel-videos-details div {
+  width: 210px;
+  height: 54px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  flex-direction: column;
+}
+.channel-videos-details div div {
+  width: 186px;
+  height: 46px;
+  margin: 0px;
+  display: block;
+  padding-right: 24px;
+}
+/* VIDEO TITLE */
+.channel-videos-details-title {
+  width: 186px;
+  height: auto;
+  display: block;
+  font-size: 11.7px;
+  font-weight: 700;
+}
+.channel-videos-details-title p {
+  width: 202px;
+  height: auto;
+  display: -webkit-box;
+  padding: 0px;
+  overflow: hidden;
+  font-size: 14px;
+  text-wrap: wrap;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0px 0px 0px 4px;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space-collapse: collapse;
+}
+/* METADATA */
+.channel-videos-details-meta {
+  width: 186px;
+  height: 18px;
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+}
+.channel-videos-details-meta div {
+  width: 186px;
+  height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.channel-videos-details-meta div div {
+  width: 186px;
+  height: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.channel-videos-details-meta div div p {
+  margin-top: 15px;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}

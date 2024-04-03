@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tube Helper</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/channel-trailer-video.css">
+    <link rel="stylesheet" href="css/channel-featured-video.css">
+    <link rel="stylesheet" href="css/channel-videos.css">
+    <link rel="stylesheet" href="css/channel-for-you.css">
+    <link rel="stylesheet" href="css/channel-home-shorts.css">
+    <link rel="stylesheet" href="css/end-screen-video.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/dark_theme.css">
+  </head>
+  <body>
+    <!-- TITLE -->
+    <table>
+      <tr>
+        <td>
+          <img class="logo" src="images/logo.png">
+        </td>
+        <td>
+          <h1 class="title">
+            TUBE HELPER
+          </h1>
+          <p class="subtitle">
+            THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE OR ALPHABET.
+          </p>
+        </td>
+      </tr>
+    </table>
+    
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <ul class="nav-ul-fix">
+        <div class="nav-left">
+          <li>
+            <a href="../tube_helper.html">Launcher</a>
+          </li>
+          <li>
+            <a href="tube_helper_dark_video_player.html">
+              Video Player
+            </a>
+          </li>
+          <li class="nav-active">
+            <a href="tube_helper_dark_channels.html">
+              Channels
+            </a>
+          </li>
+          <li>
+            <a href="tube_helper_dark_youtube_site.html">
+              YouTube Site
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">
+      CHANNELS
+    </h1>
+    
+    <!-- TITLE HELPER -->
+    <form>
+      <div class="title-helper">
+      
+        <!-- TITLE -->
+        <h2 class="title-helper-h2">
+          TITLE HELPER
+        </h2>
+        
+        <!-- DESCRIPTION -->
+        <p class="title-helper-p">
+          The title helper can help you plan how your titles will look across YouTube!
+        </p>
+        
+        <!-- MESSAGE BOX -->
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>On Windows you can use the ( Windows Key + Period Key ) to select a custom emojis.</p>
+            <p>On MacOS you can press ( Fn + E ) or the ( Globe Key + E ), or choose ( Edit > Emoji & Symbols ) to select custom emojis.</p>
+          </div>
+        </div>
+        
+        <!-- USER INPUT -->
+        <p class="title-helper-p">
+          Type your title of your video here:
+        </p>
+        <div class="editor-top">
+          <input type="text" id="titleField" placeholder="Enter custom title here!">
+        </div>
+        
+        <p class="title-helper-p">
+          Set the duration of the video here time format is (HH:MM:SS).
+        </p>
+        <div class="editor-top">
+          <input type="text" id="videoTimeField" placeholder="Enter custom time here!">
+        </div>
+        
+        <!-- BUTTON -->
+        <div>
+          <button onclick="updateParagraph()">
+            Update Title
+          </button>
+        </div>
+      </div>
+    </form>
+   
+    <!-- CHANNEL HOME PAGE CATEGORY -->
+    <div class="category">
+      <h1>
+        CHANNEL HOME PAGE
+      </h1>
+      <!-- CHANNEL TRAILER -->
+      <div class="group">
+        <h2>
+          CHANNEL TRAILER
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 424x238 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              When person is not subscribed to your channel they will see a video you set as the channel trailer video!
+            </p>
+          </div>
+        </div>
+        <div class="chantv-contents">
+          <div class="chantv-contents-ytd-channel-featured-content-render">
+            <div class="chantv-contents-featured-content">
+              <div class="chantv-ytd-video-renderer tube-helper-element-box">
+                <div class="chantv-dismissable">
+                  <div class="chantv-ytd-thumbnial">
+                    <a class="chantv-thumbnail">
+                      <div class="chantv-yt-image">
+                        <img class="chantv-yt-core-image" src="../myThumbnail.jpg">
+                      </div>
+                      <div class="chantv-overlays">
+                        <div class="chantv-ytd-overlay-time-status-renderer">
+                          <div class="chantv-time-status tube-helper-status">
+                            <p class="chantv-text" id="myvideotime0">
+                              18:34
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="chantv-content">
+                    <div class="chantv-metadata-container">
+                      <div class="chantv-title">
+                        <p class="chantv-channel-name">
+                          Your Channel Name
+                        </p>
+                      </div>
+                      <div class="chantv-ytd-video-meta-block">
+                        <p class="chantv-metadata tube-helper-subtext">
+                          1.5K views • 2 hours ago
+                        </p>
+                      </div>
+                    </div>
+                    <div class="chantv-ytd-expander">
+                      <div class="chantv-ytd-expander-content">
+                        <div class="chantv-yt-formatted-string">
+                          <p class="chantv-span-description" id="maxlength0">
+                            Welcome to my channel! I am a content creator that makes lets plays.
+                            Every season I ask YOU what game you want me to play on the community tab.
+                            Video selection is based on the first two games you great folks pick and
+                            a couple new games that we did not do in last years selection.
+                            Remember to vote for what games you want in spring and summer as this helps shape
+                            next years selection.
+                          </p>
+                          <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                var paragraph = document.getElementById("maxlength0");
+                                var text = paragraph.textContent.trim();
+                                var maxLength = 500; // Maximum length of the cropped text
+
+                                if (text.length > maxLength) {
+                                    // Find the last space within the maxLength
+                                    var lastSpaceIndex = text.lastIndexOf(' ', maxLength);
+                                    // Crop the text at the last space
+                                    var croppedText = text.substring(0, lastSpaceIndex);
+                                    paragraph.textContent = croppedText + "...";
+                                }
+                            });
+                          </script>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CHANNEL FEATURED VIDEO -->
+      <div class="group">
+        <h2>
+          CHANNEL FEATURED VIDEO
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 246x138 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              When person is subscribed already to your channel they will see a video you set as the featured video!
+            </p>
+          </div>
+        </div>
+        <div class="chanfv-contents">
+          <div class="chanfv-contents-ytd-channel-featured-content-render">
+            <div class="chanfv-contents-featured-content">
+              <div class="chanfv-ytd-video-renderer tube-helper-element-box">
+                <div class="chanfv-dismissable">
+                  <div class="chanfv-ytd-thumbnial">
+                    <a class="chanfv-thumbnail">
+                      <div class="chanfv-yt-image">
+                        <img class="chanfv-yt-core-image" src="../myThumbnail.jpg">
+                      </div>
+                      <div class="chanfv-overlays">
+                        <div class="chanfv-ytd-overlay-time-status-renderer">
+                          <div class="chanfv-time-status tube-helper-status">
+                            <p class="chanfv-text" id="myvideotime1">
+                              18:34
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="chanfv-text-wrapper">
+                    <div class="chanfv-meta">
+                      <div class="chanfv-title-wrapper">
+                        <h3 class="chanfv-title-and-badge">
+                          <a class="chanfv-video-title">
+                            <p class="chanfv-yt-formatted-string" id="mytitle0">
+                              I Built and INDUSTRIAL CITY in Minecraft Create
+                            </p>
+                          </a>
+                        </h3>
+                      </div>
+                      <div class="chanfv-ytd-video-meta-block">
+                        <div class="chanfv-metadata">
+                          <p class="chanfv-byline-container tube-helper-subtext">
+                            Your Channel Name • 1.5K views • 2 hours ago
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="chanfv-description-text tube-helper-subtext" id="maxlength1">
+                      Welcome back to another let's play for Cities Skylines. 
+                      Today we worked on some critical traffic issues and expanded out city to one more chunk. 
+                       
+                      Cities Skylines is a modern take on the classic city simulation. 
+                      The game introduces new gameplay elements to realize the thrill and hardships of creating and 
+                      maintaining a real city whilst expanding on some well-established tropes of the city-building experience.
+                    </p>
+                    <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var paragraph = document.getElementById("maxlength1");
+                        var text = paragraph.textContent.trim();
+                        var maxLength = 230; // Maximum length of the cropped text
+
+                        if (text.length > maxLength) {
+                            // Find the last space within the maxLength
+                            var lastSpaceIndex = text.lastIndexOf(' ', maxLength);
+                            // Crop the text at the last space
+                            var croppedText = text.substring(0, lastSpaceIndex);
+                            paragraph.textContent = croppedText + "...";
+                        }
+                    });
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- VIDEO SECTIONS -->
+      <div class="group">
+        <h2>
+          VIDEO SECTIONS
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 210x118 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              If you add some videos sections this will be the size of the thumbnail.<br/>
+              <br/>
+              <b>The following sections are supported:</b>
+            </p>
+            <ul>
+              <li>Videos section</li>
+              <li>Members only videos section</li>
+              <li>Single playlist section</li>
+              <li>Multiple playlist section (Though it has some different styling)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="channel-videos-group">
+          <!-- CHANNEL VIDEOS - ITEM 1 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img id="a0" src="images/thumbnails/placeholder_a.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>25:06</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p>I Built and INDUSTRIAL CITY in Minecraft Create</p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>1.5K views • 2 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CHANNEL VIDEOS - ITEM 2 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img id="b0" src="images/thumbnails/placeholder_b.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>10:15</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p>1000 Players Build MASSIVE Civilization in Minecraft</p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>1.8M views • 1 month ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CHANNEL VIDEOS - ITEM 3 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img src="../myThumbnail.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p id="myvideotime2">
+                          18:34
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p id="mytitle1">
+                        I Built and INDUSTRIAL CITY in Minecraft Create
+                      </p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>
+                            12K views • 2 days ago
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CHANNEL VIDEOS - ITEM 4 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img id="c0" src="images/thumbnails/placeholder_c.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>28:19</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p>50 Building Tips YOU NEED To Know</p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>750K views • 2 years ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CHANNEL VIDEOS - ITEM 5 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img id="d0" src="images/thumbnails/placeholder_d.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>1:18:53</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p>TimberWoods Minecraft Lets Play FULL SEASON</p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>253 views • 20 minutes ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- CHANNEL VIDEOS - ITEM 6 -->
+          <div class="channel-videos-item">
+            <div>
+              <div class="channel-videos-thumbnail">
+                <a>
+                  <div class="channel-videos-thumbnail-image">
+                    <img id="e0" src="images/thumbnails/placeholder_e.jpg">
+                  </div>
+                  <div class="channel-videos-thumbnail-overlay">
+                    <div>
+                      <div>
+                        <p>5:42</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="channel-videos-details">
+                <div>
+                  <div>
+                    <h3 class="channel-videos-details-title">
+                      <p>I Gave 1000 Diamonds To An ENTIRE SERVER</p>
+                    </h3>
+                    <div class="channel-videos-details-meta">
+                      <div>
+                        <div>
+                          <p>2.7M views • 5 years ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- FOR YOU -->
+      <div class="group">
+        <h2>
+          FOR YOU SECTION
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 354x198 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              If you enable the FOR YOU section people viwing your channel will see recommended videos with this size of thumbnail.
+            </p>
+          </div>
+        </div>
+        <div class="chanfy-scroll-outer-container">
+          <div class="chanfy-scroll-container">
+            <div class="chanfy-items">
+              <!-- ITEM 1 -->
+              <div class="chanfy-items-ytd-grid-video-render tube-helper-element-box">
+                <div class="chanfy-dismissable">
+                  <div class="chanfy-ytd-thumbnial">
+                    <a class="chanfy-thumbnial">
+                      <div class="chanfy-yt-image">
+                        <img class="chanfy-yt-core-image" id="b1" src="images/thumbnails/placeholder_b.jpg">
+                      </div>
+                      <div class="chanfy-overlays">
+                        <div class="chanfy-ytd-thumbnial-overlay-time-status-renderer">
+                          <div class="chanfy-time-status tube-helper-status">
+                            <p class="chanfy-text">
+                              10:15
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="chanfy-details">
+                    <div class="chanfy-text-metadata">
+                      <div class="chanfy-meta">
+                        <h3 class="chanfy-meta-ytd-grid-video-render">
+                          <p class="chanfy-video-title">
+                            1000 Players Build MASSIVE Civilization in Minecraft
+                          </p>
+                        </h3>
+                        <div class="chanfy-metadata-container">
+                          <div class="chanfy-metadata">
+                            <p class="chanfy-metadata-line tube-helper-subtext">
+                              1.8M views • 1 month ago
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- ITEM 2 -->
+              <div class="chanfy-items-ytd-grid-video-render tube-helper-element-box">
+                <div class="chanfy-dismissable">
+                  <div class="chanfy-ytd-thumbnial">
+                    <a class="chanfy-thumbnial">
+                      <div class="chanfy-yt-image">
+                        <img class="chanfy-yt-core-image" src="../myThumbnail.jpg">
+                      </div>
+                      <div class="chanfy-overlays">
+                        <div class="chanfy-ytd-thumbnial-overlay-time-status-renderer">
+                          <div class="chanfy-time-status tube-helper-status">
+                            <p class="chanfy-text" id="myvideotime3">
+                              18:34
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="chanfy-details">
+                    <div class="chanfy-text-metadata">
+                      <div class="chanfy-meta">
+                        <h3 class="chanfy-meta-ytd-grid-video-render">
+                          <p class="chanfy-video-title" id="mytitle2">
+                            I Built and INDUSTRIAL CITY in Minecraft Create
+                          </p>
+                        </h3>
+                        <div class="chanfy-metadata-container">
+                          <div class="chanfy-metadata">
+                            <p class="chanfy-metadata-line tube-helper-subtext">
+                              1.5K views • 2 hours ago
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- ITEM 3 -->
+              <div class="chanfy-items-ytd-grid-video-render tube-helper-element-box">
+                <div class="chanfy-dismissable">
+                  <div class="chanfy-ytd-thumbnial">
+                    <a class="chanfy-thumbnial">
+                      <div class="chanfy-yt-image">
+                        <img class="chanfy-yt-core-image" id="c1" src="images/thumbnails/placeholder_c.jpg">
+                      </div>
+                      <div class="chanfy-overlays">
+                        <div class="chanfy-ytd-thumbnial-overlay-time-status-renderer">
+                          <div class="chanfy-time-status tube-helper-status">
+                            <p class="chanfy-text">
+                              28:19
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="chanfy-details">
+                    <div class="chanfy-text-metadata">
+                      <div class="chanfy-meta">
+                        <h3 class="chanfy-meta-ytd-grid-video-render">
+                          <p class="chanfy-video-title">
+                            50 Building Tips YOU NEED To Know
+                          </p>
+                        </h3>
+                        <div class="chanfy-metadata-container">
+                          <div class="chanfy-metadata">
+                            <p class="chanfy-metadata-line tube-helper-subtext">
+                              750K views • 2 years ago
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SHORTS SECTION -->
+      <div class="group">
+        <h2>
+          SHORTS SECTION
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 210x302.391 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              Though shorts don't currently have custom thumbnial support you can use the Title Helper to design your titles.<br/>
+              The first item uses the Title Helper for its shorts title.
+            </p>
+          </div>
+        </div>
+        <div class="chanhshort-items-main">
+          <div class="chanhshort-items">
+            <!-- SHORT ITEM 1 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+              <div class="chanhshort-dismissible">
+                <div class="chanhshort-ytd-thumbnial">
+                  <a class="chanhshort-thumbnail">
+                    <div class="chanhshort-yt-image">
+                      <img class="chanhshort-yt-core-image" id="short-a0" src="images/thumbnails/home_short_placeholder_a.jpg">
+                    </div>
+                  </a>
+                </div>
+                <div class="chanhshort-details">
+                  <h3 class="chanhshort-title-h3">
+                    <a class="chanhshort-title-a">
+                      <p class="chanhshort-video-title" id="mytitle3">
+                        How To Use Global Variables #minecraft #modding
+                      </p>
+                    </a>
+                  </h3>
+                  <div class="chanhshort-ytd-video-meta-block">
+                    <div class="chanhshort-metadata">
+                      <div class="chanhshort-metadata-line">
+                        <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                          1.5K views
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SHORT ITEM 2 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+              <div class="chanhshort-dismissible">
+                <div class="chanhshort-ytd-thumbnial">
+                  <a class="chanhshort-thumbnail">
+                    <div class="chanhshort-yt-image">
+                      <img class="chanhshort-yt-core-image" id="short-b0" src="images/thumbnails/home_short_placeholder_b.jpg">
+                    </div>
+                  </a>
+                </div>
+                <div class="chanhshort-details">
+                  <h3 class="chanhshort-title-h3">
+                    <a class="chanhshort-title-a">
+                      <p class="chanhshort-video-title">
+                        Money Rebound Project Se1 Ep17 #citiesskylines
+                      </p>
+                    </a>
+                  </h3>
+                  <div class="chanhshort-ytd-video-meta-block">
+                    <div class="chanhshort-metadata">
+                      <div class="chanhshort-metadata-line">
+                        <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                          1.5K views
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SHORT ITEM 3 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+              <div class="chanhshort-dismissible">
+                <div class="chanhshort-ytd-thumbnial">
+                  <a class="chanhshort-thumbnail">
+                    <div class="chanhshort-yt-image">
+                      <img class="chanhshort-yt-core-image" src="images/thumbnails/home_short_placeholder_c.jpg">
+                    </div>
+                  </a>
+                </div>
+                <div class="chanhshort-details">
+                  <h3 class="chanhshort-title-h3">
+                    <a class="chanhshort-title-a">
+                      <p class="chanhshort-video-title">
+                        Building the CARGO Train Station #citiesskylines
+                      </p>
+                    </a>
+                  </h3>
+                  <div class="chanhshort-ytd-video-meta-block">
+                    <div class="chanhshort-metadata">
+                      <div class="chanhshort-metadata-line">
+                        <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                          1.5K views
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SHORT ITEM 4 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+              <div class="chanhshort-dismissible">
+                <div class="chanhshort-ytd-thumbnial">
+                  <a class="chanhshort-thumbnail">
+                    <div class="chanhshort-yt-image">
+                      <img class="chanhshort-yt-core-image" id="short-d0" src="images/thumbnails/home_short_placeholder_d.jpg">
+                    </div>
+                  </a>
+                </div>
+                <div class="chanhshort-details">
+                  <h3 class="chanhshort-title-h3">
+                    <a class="chanhshort-title-a">
+                      <p class="chanhshort-video-title">
+                        Best Minecraft Forge Mods 2024 #minecraft
+                      </p>
+                    </a>
+                  </h3>
+                  <div class="chanhshort-ytd-video-meta-block">
+                    <div class="chanhshort-metadata">
+                      <div class="chanhshort-metadata-line">
+                        <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                          1.5K views
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SHORT ITEM 5 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+              <div class="chanhshort-dismissible">
+                <div class="chanhshort-ytd-thumbnial">
+                  <a class="chanhshort-thumbnail">
+                    <div class="chanhshort-yt-image">
+                      <img class="chanhshort-yt-core-image" id="short-e0" src="images/thumbnails/home_short_placeholder_e.jpg">
+                    </div>
+                  </a>
+                </div>
+                <div class="chanhshort-details">
+                  <h3 class="chanhshort-title-h3">
+                    <a class="chanhshort-title-a">
+                      <p class="chanhshort-video-title">
+                        We Servived the WINTER #goingmedieval
+                      </p>
+                    </a>
+                  </h3>
+                  <div class="chanhshort-ytd-video-meta-block">
+                    <div class="chanhshort-metadata">
+                      <div class="chanhshort-metadata-line">
+                        <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                          1.5K views
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SHORT ITEM 6 -->
+            <div class="chanhshort-ytd-reel-item-renderer tube-helper-element-box">
+            <div class="chanhshort-dismissible">
+              <div class="chanhshort-ytd-thumbnial">
+                <a class="chanhshort-thumbnail">
+                  <div class="chanhshort-yt-image">
+                    <img class="chanhshort-yt-core-image" id="short-f0" src="images/thumbnails/home_short_placeholder_f.jpg">
+                  </div>
+                </a>
+              </div>
+              <div class="chanhshort-details">
+                <h3 class="chanhshort-title-h3">
+                  <a class="chanhshort-title-a">
+                    <p class="chanhshort-video-title">
+                      Game REVIEW 2024 #medievaldynasty
+                    </p>
+                  </a>
+                </h3>
+                <div class="chanhshort-ytd-video-meta-block">
+                  <div class="chanhshort-metadata">
+                    <div class="chanhshort-metadata-line">
+                      <p class="chanhshort-inline-metadata-item tube-helper-subtext">
+                        1.5K views
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <h1>
+        CHANNEL VIDEOS & LIVE PAGE
+      </h1>
+      <div class="group">
+        <h2>
+          VIDEOS & LIVESTREAMS
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 304.98x171.55 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Responsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              When person is not subscribed to your channel they will see a video you set as the channel trailer video!<br/>
+              They resize based on the browser window or device but are static in sizing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <h1>
+        CHANNEL SHORTS PAGE
+      </h1>
+      <div class="group">
+        <h2>
+          SHORTS
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 209.98x372.38 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Unresponsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              The videos page and live page on channels look like this when people view them.<br/>
+              Shorts will expand only if there is room to add another short the same size.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="category">
+      <h1>
+        CHANNEL PODCASTS PAGE
+      </h1>
+      <div class="group">
+        <h2>
+          PODCASTS
+        </h2>
+        <ul>
+          <li class="li-h3">SIZE: 197.98x196.98 @ (1920x1080)</li>
+          <li class="li-h3">SCALE: Static</li>
+          <li class="li-h3">RESPONSIVE: Responsive</li>
+        </ul>
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>
+              When you make a podcast playlist you will find podscasts under the Podcast tab.<br/>
+              They resize based on the browser window or device but are static in sizing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/channels.js"></script>
+  </body>
+</html>

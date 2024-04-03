@@ -1,0 +1,9 @@
+.end-screen-video-group div img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+.end-screen-video-group div {
+    max-width: 3840px;
+    width: 23.578%;
+}

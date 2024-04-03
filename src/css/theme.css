@@ -1,0 +1,74 @@
+/* CORE - TEXT PROPERTIES */
+h1 {
+  color: rgb(255, 0, 0);
+}
+
+/* CORE - NAVIGATION PROPERTIES */
+.nav-left li a:hover, .nav-right li a:hover  {
+  background-color: rgb(255, 0, 0);
+}
+.nav-active a {
+  background-color: rgb(255, 0, 0);
+}
+
+/* CORE - BUTTON PROPERTIES */
+.div-button {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(225, 0, 0);
+}
+.div-button:hover {
+  border: 2px solid rgb(125, 125, 125);
+  background-color: rgb(200, 200, 200);
+}
+.div-button a {
+  color: rgb(255, 255, 255);
+}
+.div-button a:hover {
+  color: rgb(0, 0, 0);
+}
+button {
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(225, 0, 0);
+}
+button:hover {
+  color: rgb(125, 125, 125);
+  border: 2px solid rgb(125, 125, 125);
+  background-color: rgb(200, 200, 200);
+}
+
+
+/* CORE - MESSAGE BOX PROPERTIES */
+.message-box {
+  border-left: 15px solid rgb(255, 0, 0);
+}
+.message-box-container {
+  border: 2px solid rgb(255, 0, 0);
+  background-color: rgb(225, 200, 200);
+}
+
+
+/* CORE - TITLE HELPER PROPERTIES */
+.title-helper {
+  border: 4px solid rgb(255, 0, 0);
+}
+input {
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  background-color: rgb(225, 225, 225);
+}
+
+/* CORE - CATEGORY DIVIDER PROPERTIES */
+.category {
+  border: 4px solid rgb(255, 0, 0);
+}
+.category-last {
+  border: 4px solid rgb(255, 0, 0);
+}
+/* CORE - GROUP DIVIDER PROPERTIES */
+.group {
+  border: 2px dashed rgb(95, 95, 95);
+}
+.group-last {
+  border: 2px dashed rgb(95, 95, 95);
+}
