@@ -27,7 +27,15 @@ h2 {
 .li-h3 {
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
 }
-
+.titlefont {
+  color: rgb(75, 75, 75);
+}
+.metafont {
+  color: rgb(125, 125, 125);
+}
+.overlayfont {
+  color: rgb(255, 255, 255);
+}
 
 
 
@@ -68,7 +76,6 @@ h2 {
 
 
 
-
 /* CORE - MESSAGE BOX PROPERTIES */
 .message-box {
   box-shadow: 5px 5px rgb(200, 200, 200);
@@ -77,40 +84,12 @@ h2 {
 
 
 
-
-/* VIDEO PLAYER - SIDEBAR - ELEMENT ITEM PROPERTIES */
-.sidebar-item {
+/* CORE - ELEMENTS BOX */
+.tube-helper-element-box {
   border: 2px solid rgb(175, 175, 175);
   box-shadow: 5px 5px rgb(200, 200, 200);
   background-color: rgb(210, 210, 210);
 }
-
-/* VIDEO PLAYER - SIDEBAR - THUMBNAIL OVERLAY PROPERTIES */
-.sidebar-thumbnail-overlay div div {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.sidebar-thumbnail-overlay div div p {
-  color: rgb(255, 255, 255);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - TITLE PROPERTIES */
-.sidebar-details-title {
-  color: rgb(75, 75, 75);
-}
-.sidebar-details-title p {
-  color: rgb(0, 0, 0);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - CHANNEL NAME PROPERTIES */
-.sidebar-details-channel div div div p {
-  color: rgb(125, 125, 125);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - METADATA PROPERTIES */
-.sidebar-details-stats p {
-  color: rgb(125, 125, 125);
-}
-
-.end-screen-video-group div img {
-  box-shadow: 5px 5px rgb(200, 200, 200);
+.tube-helper-subtext {
+  color: rgb(170, 170, 170);
 }

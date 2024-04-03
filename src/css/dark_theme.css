@@ -26,6 +26,15 @@ h2 {
 .li-h3 {
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
 }
+.titlefont {
+  color: rgb(241, 241, 241);
+}
+.metafont {
+  color: rgb(170, 170, 170);
+}
+.overlayfont {
+  color: rgb(255, 255, 255);
+}
 
 
 
@@ -68,6 +77,9 @@ h2 {
   box-shadow: 5px 5px rgb(5, 5, 5);
 }
 
+
+
+
 /* CORE - ELEMENTS BOX */
 .tube-helper-element-box {
   border: 2px solid rgb(64, 64, 64);
@@ -75,129 +87,5 @@ h2 {
   background-color: rgb(32, 32, 32);
 }
 .tube-helper-subtext {
-  color: rgb(170, 170, 170);
-}
-
-/* VIDEO PLAYER - SIDEBAR - ELEMENT ITEM PROPERTIES */
-.sidebar-item {
-  border: 2px solid rgb(64, 64, 64);
-  box-shadow: 5px 5px rgb(5, 5, 5);
-  background-color: rgb(32, 32, 32);
-}
-
-/* VIDEO PLAYER - SIDEBAR - THUMBNAIL OVERLAY PROPERTIES */
-.sidebar-thumbnail-overlay div div {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.sidebar-thumbnail-overlay div div p {
-  color: rgb(255, 255, 255);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - TITLE PROPERTIES */
-.sidebar-details-title {
-  color: rgb(241, 241, 241);
-}
-.sidebar-details-title p {
-  color: rgb(241, 241, 241);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - CHANNEL NAME PROPERTIES */
-.sidebar-details-channel div div div p {
-  color: rgb(170, 170, 170);
-}
-
-/* VIDEO PLAYER - SIDEBAR - DETAILS - METADATA PROPERTIES */
-.sidebar-details-stats p {
-  color: rgb(170, 170, 170);
-}
-
-
-
-
-/* CHANNELS - CHANNEL VIDEOS - ELEMENT ITEM PROPERTIES */
-.channel-videos-item {
-  border: 2px solid rgb(64, 64, 64);
-  box-shadow: 5px 5px rgb(5, 5, 5);
-  background-color: rgb(32, 32, 32);
-}
-
-/* CHANNELS - CHANNEL VIDEOS - THUMBNAIL OVERLAY PROPERTIES */
-.channel-videos-thumbnail-overlay div div {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.channel-videos-thumbnail-overlay div div p {
-  color: rgb(255, 255, 255);
-}
-
-/* CHANNELS - CHANNEL VIDEOS - DETAILS - TITLE PROPERTIES */
-.channel-videos-details-title {
-  color: rgb(241, 241, 241);
-}
-.channel-videos-details-title p {
-  color: rgb(241, 241, 241);
-}
-
-/* CHANNELS - CHANNEL VIDEOS - DETAILS - METADATA PROPERTIES */
-.channel-videos-details-meta div div p {
-  color: rgb(170, 170, 170);
-}
-
-
-
-
-
-
-/* CHANNELS - CHANNEL VIDEOS - ELEMENT ITEM PROPERTIES */
-
-
-/* CHANNELS - CHANNEL VIDEOS - THUMBNAIL OVERLAY PROPERTIES */
-
-.channel-for-you-thumbnail-overlay div div p {
-  color: rgb(255, 255, 255);
-}
-
-/* CHANNELS - CHANNEL VIDEOS - DETAILS - TITLE PROPERTIES */
-.channel-for-you-details-title {
-  color: rgb(241, 241, 241);
-}
-.channel-for-you-details-title p {
-  color: rgb(241, 241, 241);
-}
-
-/* CHANNELS - CHANNEL VIDEOS - DETAILS - METADATA PROPERTIES */
-.channel-for-you-details-meta div div p {
-  color: rgb(170, 170, 170);
-}
-
-
-
-
-
-
-/* CHANNELS - CHANNEL FEATURED - ELEMENT ITEM PROPERTIES */
-.channel-featured-item {
-  border: 2px solid rgb(64, 64, 64);
-  box-shadow: 5px 5px rgb(5, 5, 5);
-  background-color: rgb(32, 32, 32);
-}
-
-/* CHANNELS - CHANNEL FEATURED - THUMBNAIL OVERLAY PROPERTIES */
-.channel-featured-thumbnail-overlay div div {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.channel-featured-thumbnail-overlay div div p {
-  color: rgb(255, 255, 255);
-}
-
-/* CHANNELS - CHANNEL FEATURED - DETAILS - TITLE PROPERTIES */
-.channel-featured-details-title {
-  color: rgb(241, 241, 241);
-}
-.channel-featured-details-title p {
-  color: rgb(241, 241, 241);
-}
-
-/* CHANNELS - CHANNEL FEATURED - DETAILS - METADATA PROPERTIES */
-.channel-featured-details-meta div div p {
   color: rgb(170, 170, 170);
 }

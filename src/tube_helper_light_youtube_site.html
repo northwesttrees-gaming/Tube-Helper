@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tube Helper</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/end-screen-video.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/light_theme.css">
+  </head>
+  <body>
+    <!-- TITLE -->
+    <table>
+      <tr>
+        <td>
+          <img class="logo" src="images/logo.png">
+        <td>
+        <td>
+          <h1 class="title">
+            TUBE HELPER
+          </h1>
+          <p class="subtitle">
+            THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE OR ALPHABET.
+          </p>
+        <td>
+      <tr>
+    </table>
+    
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <ul class="nav-ul-fix">
+        <div class="nav-left">
+          <li>
+            <a href="../tube_helper.html">Launcher</a>
+          </li>
+          <li>
+            <a href="tube_helper_light_video_player.html">
+              Video Player
+            </a>
+          </li>
+          <li>
+            <a href="tube_helper_light_channels.html">
+              Channels
+            </a>
+          </li>
+          <li class="nav-active">
+            <a href="tube_helper_light_youtube_site.html">
+              YouTube Site
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    
+    <!-- PAGE TITLE -->
+    <h1 class="page-title">
+      YOUTUBE SITE
+    </h1>
+    
+    <!-- TITLE HELPER -->
+    <form>
+      <div class="title-helper">
+      
+        <!-- TITLE -->
+        <h2 class="title-helper-h2">
+          TITLE HELPER
+        </h2>
+        
+        <!-- DESCRIPTION -->
+        <p class="title-helper-p">
+          The title helper can help you plan how your titles will look across YouTube!
+        </p>
+        
+        <!-- MESSAGE BOX -->
+        <div class="message-box">
+          <div class="message-box-container">
+            <p>On Windows you can use the ( Windows Key + Period Key ) to select a custom emojis.</p>
+            <p>On MacOS you can press ( Fn + E ) or the ( Globe Key + E ), or choose ( Edit > Emoji & Symbols ) to select custom emojis.</p>
+          </div>
+        </div>
+        
+        <!-- USER INPUT -->
+        <p class="title-helper-p">
+          Type your title of your video here:
+        </p>
+        <div class="editor-top">
+          <input type="text" id="titleField" placeholder="Enter custom title here!">
+        </div>
+        
+        <p class="title-helper-p">
+          Set the duration of the video here time format is (HH:MM:SS).
+        </p>
+        <div class="editor-top">
+          <input type="text" id="videoTimeField" placeholder="Enter custom time here!">
+        </div>
+        
+        <!-- BUTTON -->
+        <div>
+          <button onclick="updateParagraph()">
+            Update Title
+          </button>
+        </div>
+      </div>
+    </form>
+   
+    <!-- VIDEO PLAYER CATEGORY -->
+    <div class="category">
+      <h1>YOUTUBE HOME PAGE</h1>
+      <div class="group">
+        <h2>GROUP TITLE</h2>
+      </div>
+      <div class="group">
+        <h2>GROUP TITLE</h2>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/title.js"></script>
+  </body>
+</html>
