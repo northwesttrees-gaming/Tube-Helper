@@ -9,8 +9,14 @@ Feel free to use this tool how you like, it's open source because something like
 ### THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE.
 
 # Tube Helper 2.0 Research
-I tested a couple of videos using Tube Helper and not using Tube Helper if you want the raw data you can find the full chart in the zip below.
-[tube_helper_2.0_data_sheet_01.zip](https://github.com/northwesttrees-gaming/Tube-Helper/files/14844909/tube_helper_2.0_data_sheet_01.zip)
+Some interesting stats from my first test for Tube Helper 2.0  
+  
+Impressions increased by 12% (5.9K to 6.6K)  
+Click Through Rate increased by 50% (2.5% to 3.8%)  
+Views From Impressions increased by 100% (147 to 249)  
+Average View Duration stayed about the same only 10 seconds more. (1:24m to 1:34m)  
+Watch Time from impressions increased by 90% (3.47 to 6.52)  
+
 ![tube_helper_2 0_data_sheet_01](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/85d00fdc-8945-46e0-8c2d-677b921d6795)
 
 
