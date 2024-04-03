@@ -8,6 +8,12 @@ Feel free to use this tool how you like, it's open source because something like
 # Disclaimer
 ### THIS IS NOT AN OFFICIAL YOUTUBE PRODUCT AND IS NOT APPROVED BY OR ASSOCIATED WITH GOOGLE.
 
+# Tube Helper 2.0 Research
+I tested a couple of videos using Tube Helper and not using Tube Helper if you want the raw data you can find the full chart in the zip below.
+[tube_helper_2.0_data_sheet_01.zip](https://github.com/northwesttrees-gaming/Tube-Helper/files/14844909/tube_helper_2.0_data_sheet_01.zip)
+![tube_helper_2 0_data_sheet_01](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/85d00fdc-8945-46e0-8c2d-677b921d6795)
+
+
 # How To Use
 1. Download the files from the resources tab.
 2. Open the HTML file with your browser.
