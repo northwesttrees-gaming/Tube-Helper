@@ -30,25 +30,51 @@ Watch Time from impressions increased by 90% (3.47 to 6.52)
     1. This will update the myThumbnail.jpg image in the HTML document.
 
 # Notes
-### NOTE 1:
-You can use Notepad++ to replace these video IDs in this document to change the thumbnail design of the alternate video thumbnails.  
-  
-Thumbnail A "gzKb-JxjyWQ"  
-Thumbnail B "zv-TS_mEHE4"  
-Thumbnial C "RNCwBSPTZiM"  
-Thumbnial D "V2IhvWpcjVg"  
-Thumbnail E "j8y-_ts_H8s"  
+## NOTE 1:
+### Online Mode Video Thumbnails
+It is now possible to change the thumbnails in the src/javascript/<page_name>.js files.
 
-### NOTE 2:
+Similar to before you can change the IDs using this part of the code.
+
+```javascript
+  var aNewId = "gzKb-JxjyWQ";
+  var bNewId = "zv-TS_mEHE4";
+  var cNewId = "RNCwBSPTZiM";
+  var dNewId = "V2IhvWpcjVg";
+  var eNewId = "j8y-_ts_H8s";
+```
+
+aNewId = Thumbnail A "gzKb-JxjyWQ"  
+bNewId = Thumbnail B "zv-TS_mEHE4"  
+cNewId = Thumbnial C "RNCwBSPTZiM"  
+dNewId = Thumbnial D "V2IhvWpcjVg"  
+eNewId = Thumbnail E "j8y-_ts_H8s"  
+
+### Offline Thumbnials
+Offline Thumbnails are stored under the src/images/thumbnails folder.
+
+## NOTE 2:
 Your thumbnail name should be "myThumbnail.jpg"
 
-### NOTE 3:
-Your thumbnail should be in the same folder as this HTML document.
+## NOTE 3:
+Your thumbnail should be in the root folder where the src folder and myThumbnial.jpg files are located.  
+Replace the myThumbnial.jpg and refresh the page to see the changes across the app.
+
+## NOTE 4:
+Themes
+You can change the theme using the src/css/dark_theme.css or the light_theme.css files.
+
 
 # Downloads
 You can easily obtain the files needed from the [releases tab](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/releases).
 
 # Screenshots
-![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/8797bf9c-90ff-46bd-a937-4c2bfd27b42b)
-![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/9d058516-69bb-4949-abe8-1bc5de13c7ec)
-![image](https://github.com/northwesttrees-gaming/YouTube-Thumbnail-Helper/assets/47284617/cc8c79e6-5e7c-4732-bb9a-f4b416070060)
+### Launcher
+![image](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/46b83569-81e2-475a-9435-26d264e77db6)
+### Title Helper
+![image](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/9df58d0c-e555-43ce-82bd-760c4a05a556)
+### Dark Theme
+![image](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/e91398a3-c207-49f7-9c4c-5aa7d9ccc8cc)
+### Light Theme
+![image](https://github.com/northwesttrees-gaming/Tube-Helper/assets/47284617/81ac6b9b-bbbb-4e4a-bf9e-4fccba177d95)
+
